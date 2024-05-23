@@ -2,12 +2,15 @@
   background-color: #1f2937;
 }
 
+.header--wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .nav {
   display: flex;
   align-items: center;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 1em;
+  padding: 1em 0;
 }
 
 .nav__logo {
@@ -22,3 +25,39 @@
   color: #e5e7eb;
   gap: 1rem;
 }
+
+.hero {
+  display: flex;
+  gap: 50px;
+  padding: 3em 0;
+}
+
+.hero__text {
+  flex: 1;
+  color: #e5e7eb;
+}
+
+.hero__title {
+  font-size: 36px;
+}
+
+.hero__subtext {
+  margin-bottom: 24px;
+}
+
+.hero__cta {
+  display: inline-block;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.hero__img {
+  flex: 1;
+  width: 100%;
+  height: auto;
+}
+
