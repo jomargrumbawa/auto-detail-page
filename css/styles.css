@@ -1,0 +1,24 @@
+.header {
+  background-color: #1f2937;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.nav__logo {
+  font-size: 24px;
+  color: #f9faf8;
+  margin-right: auto;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  color: #e5e7eb;
+  gap: 1rem;
+}
