@@ -61,3 +61,26 @@
   height: auto;
 }
 
+.services--wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.services__title {
+  font-size: 32px;
+  text-align: center;
+  padding: 20px;
+}
+
+.service--wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.service {
+  text-align: center;
+}
+
+.service__title {
+  margin-bottom: 8px;
+}
