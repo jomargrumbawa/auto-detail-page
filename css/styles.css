@@ -84,3 +84,21 @@
 .service__title {
   margin-bottom: 8px;
 }
+
+.cta__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 25px 50px;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 24px 0;
+}
