@@ -85,6 +85,44 @@
   margin-bottom: 8px;
 }
 
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote--wrapper {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.quote--text {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.pricing--wrapper {
+  display: flex;
+  gap: 25px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.price__card {
+  border: 1px solid red;
+  border-radius: 10px;
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.price__card__list {
+  list-style: none;
+  padding: 0;
+}
+
+.cta {
+  padding: 45px 0;
+}
+
 .cta__card {
   display: flex;
   align-items: center;
@@ -94,6 +132,11 @@
   margin: 0 auto;
   max-width: 900px;
   padding: 25px 50px;
+  border-radius: 10px;
+}
+
+.cta__btn {
+
 }
 
 .footer {
